@@ -1,0 +1,66 @@
+h1 {
+    font-size: 50px;
+    text-align: center;
+    height:auto;
+    min-width: fit-content;
+}
+p {
+    text-align: center;
+    font-size: 17px;
+}
+
+
+img {
+
+    width:100px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+body {
+    background-color:yellow;
+}
+
+
+
+div.buts {
+    
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+     margin: 50px auto;
+    background: #ccc;
+    box-shadow: 4px 3px 8px 1px #969696;
+    -webkit-box-shadow: 4px 3px 8px 1px #969696;
+    height:50px;
+    width: fit-content;
+      
+}
+#but1 {
+    height:auto;
+    width:20px;
+    border:none;
+    background-color: whitesmoke;
+}
+#but1:hover {
+    background-color: #969696;
+}
+#but3 {
+    height:auto;
+    width:20px;
+    border:none;
+    background-color: whitesmoke;
+    
+   
+}
+#but3:hover {
+    background-color: #969696;
+}
+#but2 {
+    height:auto;
+    width:50px;
+    border:none;
+    background-color: whitesmoke;
+}

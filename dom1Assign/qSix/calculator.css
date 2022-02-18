@@ -1,0 +1,42 @@
+img {
+    display: block;
+    width: 200px;
+    height: 75px;
+    margin-left: auto;
+    margin-right:auto;
+}
+body {
+    background-color:white;
+}
+h1 {
+    text-align: center;
+    color:grey;
+    font-family: Arial;
+    font-size:30px;
+
+}
+p {
+    font-size: 10px;
+    font-family: arial;
+    text-align: center;
+    margin-top:30px;
+}
+input {
+    display: flex;
+    margin: 0 auto;
+}
+#calc {
+    background-color:dodgerblue;
+    color:white;
+    display:flex;
+    margin:0 auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    height:30px;
+    align-items: center;
+}
+#TotalBill {
+    color:brown;
+    font-size:20px;
+    
+}
