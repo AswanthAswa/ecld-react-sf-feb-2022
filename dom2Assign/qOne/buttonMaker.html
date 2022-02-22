@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="buttonMaker.css">
+    <title>buttonMaker</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Button Maker</h1>
+
+        <form class="input">
+            <label for="background_color">BACKGROUND COLOR</label>
+            <input type="text" id="background_color" name="background_color"placeholder="type background color">
+            <label for="font_color">FONT COLOR</label>
+            <input type="text" id="font_color" name="font_color" placeholder="type font color">
+            <label for="font_size">FONT SIZE(in px)</label>
+            <input type="text" id="font_size" name="font_size" placeholder="type font size (px)">
+            <label for="font_weight">FONT WEIGHT</label>
+            <input type="text" id="font_weight" name="font_weight" placeholder="type font weight">
+            <label for="paddi">PADDING(in px)</label>
+            <input type="text" id="paddi" name="paddi" placeholder="type padding (px)">
+            <label for="border_radius">BORDER RADIUS(in px)</label>
+            <input type="text" id="border_radius" placeholder="type border radius (px)">
+            
+        </form>
+        <button id='apply' onclick="apply()">Apply</button>
+        
+    </div>
+    
+</body>
+<script src="buttonMaker.js"></script>
+</html>
