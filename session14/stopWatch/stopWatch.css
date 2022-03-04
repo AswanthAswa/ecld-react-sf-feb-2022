@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:20px;
+    background-color: rgb(194, 177, 177);
+    
+}
+
+.heading{
+    font-size:20px;
+    font-family: Arial;
+    text-align:center;
+    border-bottom:1px solid blue;
+}
+
+#timer{
+    margin-top:30px;
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+    color:rgb(56, 13, 13);
+    align-items: center;
+
+}
+
+.buttons{
+    margin-top:30px;
+    align-items: center;
+    margin-left: 170px;
+    
+
+}
+
+#btn1{
+    background-color:rgb(120, 120, 245);
+    color:white;
+    border-radius:5px;
+}
+
+#btn2{
+    background-color:white;
+    color:rgb(120, 120, 245);
+    border-radius:5px;
+}
