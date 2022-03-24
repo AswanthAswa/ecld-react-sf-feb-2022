@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.App{
+    padding-left: 500px;
+    padding-top: 100px;
+    height:400px;
+    background-color: rgb(182, 171, 171);
+}
+
+.inc{
+    background-color:rgb(96, 96, 112);
+    border-top: 2px solid black;
+    margin-right: 5px;
+}
+.dec{
+    background-color:rgb(96, 96, 112); 
+    border-top: 2px solid black;
+    margin-right: 5px;
+
+}
+.reset{
+    background-color:rgb(96, 96, 112); 
+    border-top: 2px solid black;
+    width:80px;
+}
+
+h1{
+    color:rgb(70, 70, 180);
+    font-family: 'Courier New', Courier, monospace;
+}
