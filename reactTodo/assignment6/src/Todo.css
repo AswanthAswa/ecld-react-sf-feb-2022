@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+
+.App{
+    width: 500px;
+    margin: 50px auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color:rgb(225, 225, 231);
+    align-items: center;
+    text-align: center;
+    box-shadow: 5px 10px #888888;
+    
+}
+
+.heading {
+   font-size:40px;
+   font-weight: bold ;
+   font-family: 'Courier New', Courier, monospace;
+   color:rgb(88, 12, 12);
+}
+
+#input{
+    width: 60%;
+    font-size:15px;
+    padding: 12px 0px 12px 40px;
+}
+
+#addButton{
+   align-items: center;
+   background-color:rgb(120, 120, 243);
+   font-size:15px;
+   margin-left: 10px;
+   padding: 12px ;
+   color: white;
+   cursor: pointer;
+   border-radius: 5px ;
+}
+#editButton{
+  font-size:20px;
+  color: rgb(38, 107, 53);
+  float: right;
+  margin-left:10px;
+   
+}
+
+#deleteButton{
+  font-size:20px;
+  color: rgb(252, 37, 37);
+  float: right;
+  
+}
+
+ul {
+    margin: 10px;
+    padding: 0;
+  }
+  
+  ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background: rgb(180, 176, 176);
+    font-size: 18px;
+    transition: 0.2s;
+    align-items: center;
+    
+  }
+
+  
+  ul li:hover {
+    background: rgb(240, 219, 219);
+  }
+  
+  .crossed-line {
+    text-decoration: line-through;
+    color:rgb(26, 26, 37);
+  }
+
