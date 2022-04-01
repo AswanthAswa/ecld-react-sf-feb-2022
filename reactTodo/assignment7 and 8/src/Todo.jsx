@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import { v4 as uuidv4 } from 'uuid';
 import TodoItem from './components/Todoitem'
 import './Todo.css'
+import Pagination from './Pagination'
 
 class Todo extends Component{
     constructor(props){
@@ -11,10 +12,16 @@ class Todo extends Component{
             id:uuidv4(),
             list: [],
             completed: false,
-            strikeThrough: []
+            strikeThrough: [],
+            currentPage: 1
           }
         }
     render() {
+        const { list,currentPage }= this.state;
+        const perPage= 3;
+        const totalPages= Math.ceil(list.length /perPage);
+        console.log(currentPage, 'currentPage')
+
         const handleChange=(e)=>{
             this.setState({
                 value: e.target.value
@@ -72,6 +79,13 @@ class Todo extends Component{
             element.classList.toggle("crossed-line");
            }
 
+           const handlePage=(pageNum)=>{
+               this.setState({
+                currentPage: pageNum
+            
+               })
+           }
+
         return (
             <div className="container">
             <h1 className='heading'>ToDo</h1>
@@ -79,7 +93,8 @@ class Todo extends Component{
             <button id="addButton" onClick={handleAddTask}>{this.state.completed?'Edit':'Add'}</button>
 
             {
-                this.state.list.map((item) => {
+                this.state.list.filter((_,index)=>index>=(currentPage -1)*perPage && index <currentPage* perPage)
+                .map((item) => {
                     return (
                         
                         <TodoItem key={item.id} task={item.task} handleDelete={()=>handleDelete(item.id)} 
@@ -89,6 +104,9 @@ class Todo extends Component{
 
                 })
             }
+            <div id='pagination'>
+            <Pagination totalPages={totalPages} handlePage={handlePage}/>
+            </div>
             </div>
         )
     }

@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-.App{
+.container{
     width: 500px;
     margin: 50px auto;
     padding-top: 30px;
@@ -71,7 +71,7 @@ ul {
 
   
   ul li:hover {
-    background: rgb(240, 219, 219);
+    background: white;
   }
   
   .crossed-line {

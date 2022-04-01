@@ -1,0 +1,12 @@
+#pagination{
+    margin-top:30px;
+}
+#pageButton{
+    border-width: 0px;
+    background-color:rgb(225, 225, 231);
+}
+#pageButton:hover{
+    color:blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
