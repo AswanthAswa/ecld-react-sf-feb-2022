@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+.loginStatus{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:50px;
+    background-color:grey;
+    height:200px;
+    width:400px;
+    padding-top:30px;
+    box-shadow: 5px 5px 5px 5px black;
+}

@@ -32,7 +32,8 @@ class AuthContextProvider extends Component {
           //console.log(res,'response');
           this.setState({
               token: res.data.token,
-              isAuth: true
+              isAuth: true,
+              
           })
       })
       .catch(err=>{

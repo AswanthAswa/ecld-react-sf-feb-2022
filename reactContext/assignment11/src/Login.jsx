@@ -18,7 +18,7 @@ class Login extends Component {
             <div className="login-container">
             {
               isAuth? (
-                    <div>
+                    <div id="success-div">
                     <i><strong>{email} </strong></i><span id='success'>Successfully Logged in</span>
                     </div>
                 ):(

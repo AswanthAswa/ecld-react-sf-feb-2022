@@ -11,7 +11,7 @@ return(
             return(
                 <div className="loginStatus">
                 <h2>Login Status</h2>
-                <h4>Loggedin user : {context.email}</h4>
+                <h3>Loggedin user :{context.email}</h3>
                 <h4>Token : {context.token}</h4>
                 </div>
             )
