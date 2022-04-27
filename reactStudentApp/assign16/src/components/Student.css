@@ -1,0 +1,122 @@
+.students-container {
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  grid-column-gap: 50px;
+  grid-row-gap: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 20px;
+}
+
+.student-container {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  background-color: #d4e6e9;
+  box-shadow: 5px 5px 8px #545b5d ;
+}
+
+
+.input-search {
+  width: 90%;
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.user-input {
+  padding: 15px;
+  border-radius: 5px;
+  width: 50%;
+  margin-left: 250px;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.search-btn {
+  margin: 10px;
+  padding: 8px;
+  background-color: #78888b;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  width:10%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination {
+  margin-top: 80px;
+  margin-left: 45%;
+}
+
+.pageBtn {
+  color:rgba(14, 62, 113, 0.803);
+  margin: 3px;
+  border-width: 0px;
+  cursor: pointer;
+  width: 80px;
+  padding: 5px;
+}
+
+.pageBtn1 {
+  border: none;
+  background-color: white;
+  font-weight: bold;
+}
+
+.filter {
+  margin-left: 80%;
+  margin-top: -50px;
+}
+.btn-success,
+.btn-danger {
+  margin: 5px;
+  font-weight: bold;
+  width:60px;
+  background-color: grey;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card-body-show {
+  padding:20px;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  background-color:#d4e6e9;
+  box-shadow: 5px 5px 8px #17a2b8 ;
+  margin-top: 50px;
+}
+
+.sort{
+  margin-left: 50px;
+   
+}
+
+.navigate{
+  margin-left: 50px;
+  margin-top: 20px;
+  background-color: grey;
+  cursor: pointer;
+}
+
+.logout{
+  float: right;
+  
+}
+
+#logoutBtn{
+width:60px;
+height:25px;
+background:rgb(239, 94, 41);;
+font-family:verdana;
+font-size:14px;
+color:white;
+border-radius:5px 5px 5px 5px;
+border-width: 1px;
+border-style:solid;
+border-color: gray;
+cursor:pointer;
+outline:none;
+}
