@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+#login-heading{
+    font-size:40px;
+    font-weight: bold ;
+    font-family: 'Times New Roman', Times, serif;
+    color:grey;
+	margin-top:20px;
+ }
+#login-body{
+    width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+    text-align: center;
+    align-items: center;
+    box-shadow: 3px 1px  3px 3px #c6cdcd ;
+	margin-top:60px;
+    padding:20px;
+}
+
+#username{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	height:42px;
+	border-radius:5px 5px 5px 5px;
+	background:white;
+	font-size:18px;
+	margin-top:0px;
+	border-width: 1px;
+	border-style:solid;
+	border-color: grey;
+}
+#password{
+    width: 80%;
+	margin-left: auto;
+	margin-right: auto; 
+	height:42px;
+	border-radius:5px 5px 5px 5px;
+	background:white;
+	font-size:18px;
+	margin-top:0px;
+	border-width: 1px;
+	border-style:solid;
+	border-color: grey;
+
+}
+#login{
+    width:270px;
+	height:35px;
+	margin-top:20px;
+	background:rgb(239, 94, 41);
+	font-family:verdana;
+	font-size:14px;
+	color:white;
+	border-radius:5px 5px 5px 5px;
+	border-width: 1px;
+	border-style:solid;
+	border-color: gray;
+	cursor:pointer;
+	outline:none;
+}
+

@@ -1,0 +1,51 @@
+
+ *{
+   box-sizing: border-box;
+ }
+  
+ #homeImg1{
+   width: 100%;
+ }
+
+ #homeImg2{
+  width: 100%;
+}
+
+#homeImg3{
+  width: 100%;
+  height:550px;
+}
+
+ .grid-home1 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 25px;
+  margin-left: 100px;
+  margin-right: 50px;
+  padding: 10px;
+  margin-top: 100px;
+}
+
+.home1-item1 {
+  background-color: #f8f9fa;
+  width: 80%;
+  padding: 30px 0;
+  padding-right: 30px;
+  border-radius: 5px;
+  box-shadow: 3px 3px  5px #8c8e8e ;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.item {
+  text-align: left;
+  font-size: 20px;
+  margin-left: 100px;
+}
+
+.data {
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+

@@ -1,0 +1,108 @@
+
+ .main-div{
+    width: 100%;
+    height: 100%;
+    padding-top:2%;
+    
+ }
+
+
+.students-card { 
+  text-align: center;
+  background-color: #d4e6e9;
+  box-shadow: 5px 5px 8px #545b5d ;
+}
+
+
+.input-search {
+  width: 90%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display:flex;
+  flex-direction: row;
+}
+
+.user-input {
+  padding-left: 5%;
+  width: 50%;
+  border-radius: 5px;
+  margin-left: 20%;
+  font-size: 130%;
+  text-transform: capitalize;
+}
+
+.search-btn {
+  margin:1%;
+  padding: 1%;
+  border-radius: 5px;
+  
+}
+
+.pagination {
+  margin-top: 15%;
+  margin-left: 45%;
+}
+
+.pageBtn {
+  color:rgba(14, 62, 113, 0.803);
+  border-width: 0px;
+  cursor: pointer;
+  
+}
+
+.pageBtn1 {
+  border: none;
+  background-color: white;
+  font-weight: bold;
+}
+
+.filter {
+  margin-left: 80%;
+  display: inline-block;
+}
+.btn-male,
+.btn-female {
+  background-color: rgba(151, 146, 146, 0.9);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card-body-show {
+  padding:20px;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  background-color:#d4e6e9;
+  box-shadow: 5px 5px 8px #17a2b8 ;
+  margin-top: 50px;
+}
+
+.sort{
+  margin-left: 5%;
+   
+}
+
+#select{
+  font-size:100%;
+}
+
+.navigate{
+  margin-left: 5%;
+  margin-top: 2%;
+  background-color: grey;
+  cursor: pointer;
+}
+
+.logout{
+  
+  float: right;
+  
+}
+
+#logoutBtn{
+
+background:rgb(239, 94, 41);
+font-family:verdana;
+
+
+}
